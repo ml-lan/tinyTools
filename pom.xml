@@ -40,6 +40,11 @@
             <artifactId>commons-io</artifactId>
             <version>2.13.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -83,6 +88,7 @@
                         <list>com.tiny.tool.ctrl.AboutCtrl</list>
                         <list>javafx.scene.control.TabPane</list>
                         <list>javafx.scene.control.Tab</list>
+                        <list>com.tiny.tool.entity.Cmd</list>
                     </reflectionList>
                     <nativeImageArgs>
                         <arg>--add-exports=org.graalvm.nativeimage.builder/com.oracle.svm.core.jdk=ALL-UNNAMED</arg>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "redis",
+    "name": "redis.bat",
+    "describe": "redis脚本",
+    "path": "E:\\software\\Redis-x64-5.0.14.1"
+  },
+  {
+    "id": "minio",
+    "name": "minio.bat",
+    "describe": "minio脚本",
+    "path": "E:\\minio"
+  },
+  {
+    "id": "nacos",
+    "describe": "nacos脚本",
+    "name": "startup.cmd",
+    "path": "E:\\software\\nacos\\bin"
+  }
+]
