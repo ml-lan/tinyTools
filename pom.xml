@@ -78,6 +78,11 @@
                     <!-- 涉及反射的类 -->
                     <reflectionList>
                         <list>com.tiny.tool.ctrl.MainCtrl</list>
+                        <list>com.tiny.tool.ctrl.HomeCtrl</list>
+                        <list>com.tiny.tool.ctrl.LogCtrl</list>
+                        <list>com.tiny.tool.ctrl.AboutCtrl</list>
+                        <list>javafx.scene.control.TabPane</list>
+                        <list>javafx.scene.control.Tab</list>
                     </reflectionList>
                     <nativeImageArgs>
                         <arg>--add-exports=org.graalvm.nativeimage.builder/com.oracle.svm.core.jdk=ALL-UNNAMED</arg>

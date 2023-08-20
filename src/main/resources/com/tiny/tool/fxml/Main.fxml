@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
 <?import javafx.scene.layout.Pane?>
 
 <Pane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" stylesheets="@../css/Main.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tiny.tool.ctrl.MainCtrl">
-
+   <children>
+      <TabPane fx:id="mainTabPane">
+        <tabs>
+          <Tab fx:id="homeTab" text="首页">
+            <fx:include fx:id="homeTabPage" source="Home.fxml"/>
+          </Tab>
+          <Tab fx:id="logTab" text="日志">
+            <fx:include fx:id="logTabPage" source="Log.fxml"/>
+          </Tab>
+          <Tab fx:id="aboutTab" text="关于">
+            <fx:include fx:id="aboutTabPage" source="About.fxml"/>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
 </Pane>
